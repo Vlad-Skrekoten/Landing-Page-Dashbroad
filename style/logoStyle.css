@@ -1,0 +1,53 @@
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: end;
+    justify-self: start;
+}
+
+.before {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.color__blue {
+    width: 12px;
+    height: 4px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #37D2F3 100%, #3A7BD5 100%);
+    transform: rotate(90deg) translate(0, 2px);
+}
+
+.color__orange {
+    width: 16px;
+    height: 4px;
+    background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    border-radius: 2px;
+    transform: rotate(90deg) translate(0, -2px);
+}
+
+.color__red {
+    width: 20px;
+    height: 4px;
+    background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%);
+    border-radius: 2px;
+    transform: rotate(90deg) translate(0, -10px);
+}
+
+.button__blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 150px;
+    height: 40px;
+    background: #5E5CE6;
+    box-shadow: 0px 4px 6px -4px rgba(24, 39, 75, 0.12), 0px 8px 8px -4px rgba(24, 39, 75, 0.08);
+    border-radius: 20px;
+}
